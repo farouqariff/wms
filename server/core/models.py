@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class PagePermissions(models.Model):
     """
     This model is only used to define custom permissions for pages.
@@ -12,3 +13,4 @@ class PagePermissions(models.Model):
             ('view_operator_page', 'Can view operator page'),
             ('view_manager_page', 'Can view manager page'),
         ]
+

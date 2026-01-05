@@ -5,11 +5,13 @@ A full-stack warehouse management system with role-based access control.
 ## Tech Stack
 
 ### Backend
+
 - Django
 - Django REST Framework
 - SQLite Database
 
 ### Frontend
+
 - React
 - Tailwind CSS
 
@@ -33,21 +35,25 @@ wms/
 ### Backend Setup
 
 1. Navigate to the server directory:
+
    ```bash
    cd server
    ```
 
 2. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 3. Run migrations:
+
    ```bash
    python manage.py migrate
    ```
 
 4. Setup initial users:
+
    ```bash
    python manage.py setup_users
    ```
@@ -60,11 +66,13 @@ wms/
 ### Frontend Setup
 
 1. Navigate to the client directory:
+
    ```bash
    cd client
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
